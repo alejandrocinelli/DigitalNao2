@@ -1,0 +1,227 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para las secciones */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+section h2 {
+    margin-bottom: 5px;
+}
+
+/* Estilos para el formulario */
+form {
+    margin-top: 20px;
+}
+
+form label, form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#courses div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para el botón y la etiqueta <p> en la sección de cursos */
+#courses div p,
+#courses div button {
+    margin-top: auto;
+}
+
+/* Estilos para la sección de cursos */
+#courses {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#courses div {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+#courses h2 {
+    margin-bottom: 10px;
+}
+
+#courses p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/* Estilos para las imágenes */
+section#vision div img {
+    width: 33%;
+    max-width: 100%;
+    height: auto;
+}
+
+#courses div img {
+    width: 80%; /* Ajusta este valor para cambiar el tamaño de las imágenes */
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el contenedor de la imagen para que la imagen este centrada*/
+
+#imageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos para las imágenes en pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    section#vision div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section#vision div img {
+        width: 100%;
+    }
+}
+
+/* Styles for screens that are 600px wide or less */
+
+@media screen and (max-width: 600px) {
+    /* Stack the navigation links vertically instead of horizontally */
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Make the sections fill the entire width of the screen */
+    section {
+        width: 100%;
+    }
+}/* Estilos para pantallas de tablet */
+@media screen and (max-width: 768px) {
+    /* Aquí puedes ajustar los estilos para pantallas de tablet */
+}
+/* Estilos para pantallas de tablet */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        width: 100%;
+    }
+}
+
+/* Estilos para pantallas de móvil en orientación horizontal */
+@media screen and (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        width: 100%;
+    }
+}
+
+/* Estilos para pantallas de móvil en orientación vertical */
+@media screen and (max-width: 320px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        width: 100%;
+    }
+}
+
+/* Estilos para pantallas de móvil en orientación horizontal */
+@media screen and (max-width: 480px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        width: 100%;
+    }
+}
+
+/* Estilos para pantallas de móvil en orientación vertical */
+@media screen and (max-width: 320px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        width: 100%;
+    }
+}
